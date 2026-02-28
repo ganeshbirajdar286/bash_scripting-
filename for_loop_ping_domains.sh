@@ -1,4 +1,4 @@
-#!/bin/bas
+#!/bin/bash
 
 for x in google.com bing.com facebook.com networkchuck.com;
 do  
