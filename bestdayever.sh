@@ -7,6 +7,8 @@ read name
 '
 name=$1
 compliment=$2
+total_argument=$@
+length_of_argument=$# 
 user=$(whoami)
 date=$(date)
 whereami=$(pwd)
@@ -18,4 +20,4 @@ echo "You  have the best $compliment   I've ever seen $name!!"
 sleep 2
 echo "You are currently logged inn as $user and you  are in the directory $whereami at $date "
 sleep 3
-echo "hi"
+echo "total argument are $total_argument and length of argument $length_of_argument"
