@@ -1,6 +1,8 @@
 
 #!/bin/bash # this is called  shebang.It tells Linux to run the script using 
              #the Bash shell
+set -x  # it  helps in degguing
+set -e   # if error  happen then it stop running
 
 echo "hi mom"
 
