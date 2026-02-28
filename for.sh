@@ -33,7 +33,7 @@ fi
 #getting values from a file name.text
 
 
-File=/home/ganesh/names.txt
+File=names.txt
 
 for name in $(cat $File) #Run the command inside $() and use its output as a value.Because Bash needs a value, not a command.
 do 
