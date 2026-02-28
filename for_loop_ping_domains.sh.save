@@ -8,7 +8,8 @@ do
         echo "$x is down"
  fi
 done 
- <<'COMMENT'
+
+ <<'comment'
 | Option        | Meaning                                            |
 | ------------- | -------------------------------------------------- |
 | `ping`        | Sends packets to check connectivity                |
@@ -16,6 +17,4 @@ done
 | `-c 2`        | Send 2 packets only                                |
 | `-W 1`        | Wait 1 second for reply                            |
 | `$x`          | The current website from loop                      |
-| `> /dev/null` | Discards output (so it doesn't print ping details) |
-
-COMMENT
+| `> /dev/null` | Discards output (so it doesn't print ping details)
